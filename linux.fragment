@@ -94,5 +94,6 @@ CONFIG_NF_NAT_MASQUERADE=y
 CONFIG_MACVLAN=m
 CONFIG_IPVLAN=m
 CONFIG_VXLAN=m
-# that one fails to autoload for me
+# those fail to auto-load for me on some hardware
 CONFIG_R8169=y
+CONFIG_USB_HID=y
